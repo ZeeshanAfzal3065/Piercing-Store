@@ -1,213 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
-  <title>Piercing</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Piercing</title>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel=stylesheet href=./assets/css/bootstrap.min.css>
+    <link rel=stylesheet href=./assets/css/style.css>
+    <link rel=stylesheet href=./assets/css/responsive.css>
 </head>
 
 <body>
-  <header>
-    <div class="header-main">
-      <div class="mobile-header">
-        <aside>
-          <div class="mobile-menu">
-            <div id="mySidenav" class="sidenav" style="width: 0px">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-              <div class="menu-links" id="menuLinks">
-                <a href="index.html"> Home</a>
-                <a href="about.html"> About</a>
-                <a href="service.html">Services</a>
-                <a href="appoinment.html">Booking</a>
-                <a href="contact.html"> Contact</a>
-              </div>
+    <header>
+        <div class=header-main>
+            <div class=mobile-header>
+                <aside>
+                    <div class=mobile-menu>
+                        <div id=mySidenav class=sidenav style=width:0>
+                            <a href=javascript:void(0) class=closebtn onclick=closeNav()>×</a>
+                            <div class=menu-links id=menuLinks>
+                                <a href=index.html> Home</a>
+                                <a href=about.html> About</a>
+                                <a href=service.html>Services</a>
+                                <a href=appoinment.html>Booking</a>
+                                <a href=contact.html> Contact</a>
+                            </div>
+                        </div>
+                        <div class=mobile-image>
+                            <div class=logo>
+                                <a href=index.html><img src=./assets/images/footer-logo.png class=widget-heading
+                                        class=img-fluid alt=""></a>
+                            </div>
+                            <span style=font-size:30px;cursor:pointer;color:#fff onclick=openNav()>☰</span>
+                        </div>
+                    </div>
+                </aside>
             </div>
-            <div class="mobile-image">
-              <div class="logo">
-                <a href="index.html"><img src="./assets/images/footer-logo.png" class="widget-heading" class="img-fluid" alt="" /></a>
-              </div>
-              <span style="font-size: 30px; cursor: pointer; color: #fff" onclick="openNav()">☰</span>
-            </div>
-          </div>
-        </aside>
-      </div>
-
-      <div class="distop-header">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-lg-2">
-              <div class="logo">
-               <a href="index.html"> <img src="./assets/images/logo.png" class="img-fluid" alt="" /></a>
-              </div>
-            </div>
-            <div class="col-lg-8">
-              <div class="menu-links" id="menuLinks">
-                <a href="index.html"> Home</a>
-                <a href="about.html"> About</a>
-                <a href="service.html"> Services</a>
-                <a href="aftercare.html">Aftercare</a>
-                <a href="contact.html"> Contact</a>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="contact">
-                <div class="Contact-us">
-                  <a href="appoinment.html">Make an Appoinment</a>
+            <div class=distop-header>
+                <div class=container-fluid>
+                    <div class="row align-items-center">
+                        <div class=col-lg-2>
+                            <div class=logo>
+                                <a href=index.html> <img src=./assets/images/logo.png class=img-fluid alt=""></a>
+                            </div>
+                        </div>
+                        <div class=col-lg-8>
+                            <div class=menu-links id=menuLinks>
+                                <a href=index.html> Home</a>
+                                <a href=about.html> About</a>
+                                <a href=service.html> Services</a>
+                                <a href=aftercare.html>Aftercare</a>
+                                <a href=contact.html> Contact</a>
+                            </div>
+                        </div>
+                        <div class=col-lg-2>
+                            <div class=contact>
+                                <div class=Contact-us>
+                                    <a href=appoinment.html>Make an Appoinment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </header>
-
-<section class="form-section">
-  <h3>Book Your Appointment</h3>
-  <p>Safe, private, and hygienic piercing at your doorstep</p>
-  <form id="booking-form">
-    <input type="text" id="name" placeholder="Full Name" required />
-    <input type="text" id="phone" placeholder="Phone Number" required />
-    <input type="text" id="address" placeholder="Address" required />
-    <input type="date" id="date" required />
-    <input type="text" id="piercing" placeholder="Piercing Type" required />
-    <input type="text" id="material" placeholder="Material" required />
-    <textarea id="notes" placeholder="Any Notes" rows="6"></textarea>
-    <button type="submit" class="book-btn">BOOK NOW</button>
-  </form>
-  <p class="note-para">
-    <strong>Note: </strong>We'll confirm via WhatsApp shortly after receiving your form
-  </p>
-</section>
-
-
-  <section class="testimonial-section">
-    <div class="container">
-      <div class="row">
-        <div class="testimonial-head">
-          <h1>Testimonials</h1>
-          <p>Click here to see what others have to say about us!</p>
+    </header>
+    <section class=form-section>
+        <h3>Book Your Appointment</h3>
+        <p>Safe, private, and hygienic piercing at your doorstep</p>
+        <form id=booking-form>
+            <input id=name placeholder="Full Name" required>
+            <input id=phone placeholder="Phone Number" required>
+            <input id=address placeholder=Address required>
+            <input type=date id=date required>
+            <input id=piercing placeholder="Piercing Type" required>
+            <input id=material placeholder=Material required>
+            <textarea id=notes placeholder="Any Notes" rows=6></textarea>
+            <button type=submit class=book-btn>BOOK NOW</button>
+        </form>
+        <p class=note-para>
+            <strong>Note: </strong>We'll confirm via WhatsApp shortly after receiving your form
+        </p>
+    </section>
+    <section class=testimonial-section>
+        <div class=container>
+            <div class=row>
+                <div class=testimonial-head>
+                    <h1>Testimonials</h1>
+                    <p>Click here to see what others have to say about us!</p>
+                </div>
+                <div class=col-lg-4>
+                    <div class=testimonial-card>
+                        <img src=./assets/images/testimonial.png class=img-fluid alt="">
+                        <p>
+                            Main pehle thori nervous thi ghar par piercing karwane ke liye, lekin service itni
+                            professional thi ke sab doubts door ho gaye. Artist ne gloves, sterile tools aur mask use
+                            kiya — bilkul hygienic! Highly recommended!
+                        </p>
+                        <h6>Areeba M. – DHA, Karachi</h6>
+                    </div>
+                </div>
+                <div class=col-lg-4>
+                    <div class=testimonial-card>
+                        <img src=./assets/images/testimonial.png class=img-fluid alt="">
+                        <p>
+                            Doorstep piercing ne meri life easy bana di! Na salon ka wait, na travel ka issue. Time par
+                            aaye, setup kiya aur within 15 minutes kaam ho gaya. Pain bhi almost nahi tha. I'm in love
+                            with my new nose stud!
+                        </p>
+                        <h6>Hina S. – Gulshan, Karachi</h6>
+                    </div>
+                </div>
+                <div class=col-lg-4>
+                    <div class=testimonial-card>
+                        <img src=./assets/images/testimonial.png class=img-fluid alt="">
+                        <p>
+                            Mujhe sirf piercing hi nahi, unki aftercare balm bhi kaafi achi lagi. Thodi redness thi
+                            lekin balm lagate hi 2 din mein theek ho gaya. Smell pleasant thi aur skin ko soothe kiya.
+                            Highly recommended!
+                        </p>
+                        <h6>Sana J. – Model Colony, Karachi</h6>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4">
-          <div class="testimonial-card">
-            <img src="./assets/images/testimonial.png" class="img-fluid" alt="" />
-            <p>
-              Main pehle thori nervous thi ghar par piercing karwane ke liye,
-              lekin service itni professional thi ke sab doubts door ho gaye.
-              Artist ne gloves, sterile tools aur mask use kiya — bilkul
-              hygienic! Highly recommended!
-            </p>
-            <h6>Areeba M. – DHA, Karachi</h6>
-          </div>
+    </section>
+    <footer>
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-4>
+                    <div class=footer-logo>
+                        <img src=./assets/images/footer-logo.png class=img-fluid alt=logo>
+                        <h6>Keep in touch</h6>
+                        <p>
+                            Sign up to received pierceAura. updates, access to exclusive deals. and more.
+                        </p>
+                        <form id=subscribe-form class=subscribe-btn>
+                            <input type=email id=email placeholder="Enter your email address" required>
+                            <button type=submit class=sub-btn>SUBSCRIBE</button>
+                            <p id=message></p>
+                        </form>
+                    </div>
+                </div>
+                <div class=col-lg-2>
+                    <div class=footer-links>
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href=index.html>Home</a></li>
+                            <li><a href=about.html>About Us</a></li>
+                            <li><a href=service.html>Services</a></li>
+                            <li><a href=faqs.html>FAQ</a></li>
+                            <li><a href=blog.html>Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=col-lg-4>
+                    <div class=footer-coantct>
+                        <h2>Contact</h2>
+                        <ul>
+                            <li>Call Us: +92 323 5810056</li>
+                            <li>Emai: info@pierceaura.com</li>
+                            <li>Serving Karachi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=col-lg-2>
+                    <div class=footer-media>
+                        <h2>Social Media</h2>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Facebook</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4">
-          <div class="testimonial-card">
-            <img src="./assets/images/testimonial.png" class="img-fluid" alt="" />
-            <p>
-              Doorstep piercing ne meri life easy bana di! Na salon ka wait,
-              na travel ka issue. Time par aaye, setup kiya aur within 15
-              minutes kaam ho gaya. Pain bhi almost nahi tha. I'm in love with
-              my new nose stud!
-            </p>
-            <h6>Hina S. – Gulshan, Karachi</h6>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-card">
-            <img src="./assets/images/testimonial.png" class="img-fluid" alt="" />
-            <p>
-              Mujhe sirf piercing hi nahi, unki aftercare balm bhi kaafi achi lagi. Thodi redness thi lekin balm lagate
-              hi 2 din mein theek ho gaya. Smell pleasant thi aur skin ko soothe kiya. Highly recommended!
-            </p>
-            <h6>Sana J. – Model Colony, Karachi</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="footer-logo">
-            <img src="./assets/images/footer-logo.png" class="img-fluid" alt="logo" />
-            <h6>Keep in touch</h6>
-            <p>
-              Sign up to received pierceAura. updates, access to exclusive
-              deals. and more.
-            </p>
-            <form id="subscribe-form" class="subscribe-btn">
-              <input type="email" id="email" placeholder="Enter your email address" required>
-              <button type="submit" class="sub-btn">SUBSCRIBE</button>
-              <p id="message"></p>
-            </form>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="footer-links">
-            <h2>Quick Links</h2>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="service.html">Services</a></li>
-              <li><a href="faqs.html">FAQ</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <!-- <li><a href="privacy.html">Privacy Policy</a></li> -->
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="footer-coantct">
-            <h2>Contact</h2>
-            <ul>
-              <li>Call Us: +92300 1234567</li>
-              <li>Emai: info@pierceaura.com</li>
-              <li>Serving Karachi</li>
-              <!-- <li>WhatsApp Us</li> -->
-              <!-- <li>Blog</li> -->
-              <!-- <li>Privacy Policy</li> -->
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="footer-media">
-            <h2>Social Media</h2>
-            <ul>
-              <li>Instagram</li>
-              <li>Facebook</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script>
-    // Subscribe form function
-    document.getElementById("subscribe-form").addEventListener("submit", function (e) {
-      e.preventDefault();
-      const email = document.getElementById("email").value;
-      const message = document.getElementById("message");
-
-      if (email) {
-        message.textContent = "Thanks for subscribing!";
-        message.style.color = "lightgreen";
-        document.getElementById("email").value = "";
-      } else {
-        message.textContent = "Please enter a valid email.";
-        message.style.color = "red";
-      }
-    });
-  </script>
-
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/font.js"></script>
-  <script src="./assets/js/custom.js"></script>
+    </footer>
+    <script src=./assets/js/bootstrap.bundle.min.js></script>
+    <script src=./assets/js/font.js></script>
+    <script src=./assets/js/custom.js></script>
 </body>
 
 </html>
