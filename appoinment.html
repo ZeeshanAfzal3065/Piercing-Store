@@ -66,21 +66,25 @@
             </div>
         </div>
     </header>
-    <section class=form-section>
+    <section class="form-section">
         <h3>Book Your Appointment</h3>
         <p>Safe, private, and hygienic piercing at your doorstep</p>
-        <form id=booking-form>
-            <input id=name placeholder="Full Name" required>
-            <input id=phone placeholder="Phone Number" required>
-            <input id=address placeholder=Address required>
-            <input type=date id=date required>
-            <input id=piercing placeholder="Piercing Type" required>
-            <input id=material placeholder=Material required>
-            <textarea id=notes placeholder="Any Notes" rows=6></textarea>
-            <button type=submit class=book-btn>BOOK NOW</button>
+        <form id="booking-form">
+            <input type="text" id="name" name="name" placeholder="Full Name" required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+            <input type="text" id="address" name="address" placeholder="Address" required>
+            <input type="date" id="date" class="date-set" name="date" required>
+            <input type="text" id="piercing" name="piercing" placeholder="Piercing Type" required>
+            <select id="jewelry" name="jewelry" class="material-selecter" required>
+                <option value="" disabled selected>Select Jewelry Type</option>
+                <option value="silver">Silver Jewelry</option>
+                <option value="gold">Gold Jewelry</option>
+            </select>
+            <textarea id="notes" name="notes" placeholder="Any Notes" rows="6"></textarea>
+            <button type="submit" class="book-btn">BOOK NOW</button>
         </form>
-        <p class=note-para>
-            <strong>Note: </strong>We'll confirm via WhatsApp shortly after receiving your form
+        <p class="note-para">
+            <strong>Note:</strong> We'll confirm via WhatsApp shortly after receiving your form
         </p>
     </section>
     <section class=testimonial-section>
