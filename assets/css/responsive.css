@@ -780,10 +780,10 @@
         color: #000
     }
 
-    .hero-content h4 {
-        font-size: 45px;
-        line-height: 67px
-    }
+   .hero-content h4 {
+    font-size: 35px;
+    line-height: 67px;
+}
 
     .hero-content h4 span {
         background: #292929;
