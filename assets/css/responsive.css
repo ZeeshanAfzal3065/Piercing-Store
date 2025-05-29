@@ -780,10 +780,13 @@
         color: #000
     }
 
-   .hero-content h4 {
-    font-size: 35px;
-    line-height: 67px;
-}
+    .hero-content h4 {
+        font-size: 45px;
+        display: flex;
+        line-height: 67px;
+        gap: 14px;
+        flex-wrap: wrap;
+    }
 
     .hero-content h4 span {
         background: #292929;
@@ -1254,10 +1257,10 @@
         margin: 0 16px
     }
 
-.hero-content h4 {
-    font-size: 22px;
-    line-height: 42px;
-}
+    .hero-content h4 {
+        font-size: 30px;
+        line-height: 42px;
+    }
 
     .hero-content h4 span {
         background: #292929;
